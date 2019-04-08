@@ -39,9 +39,14 @@ app.get('/met', function(req,res){
 				error: error
 			})
 		}
-		
+
 	})
 
+
+})
+
+app.get('/', function(req, res){
+	res.send('Bienvenido a mi pagina web')
 
 })
 
